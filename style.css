@@ -1,0 +1,165 @@
+html{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+nav{
+    background-color:  rgb(27, 27, 27);
+    padding-top: 14px;
+    height: 45px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ok1{
+    width: 17px;
+    height: 20px;
+    margin-top: -4px;
+}
+
+.Image img {
+    transition: box-shadow 0.4s ease-in;
+    transition: transform 0.4s ease-out;
+}
+
+
+.Image img:hover {
+    transform: rotateZ(360deg);
+    box-shadow: 0 0 20px 5px red;
+}
+
+
+li{
+   list-style-type: none;
+   text-decoration: none;
+   text-align: center;
+}
+
+.main .jumbotron .header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.main .jumbotron .header .text{
+    color: white;
+}
+
+.main .jumbotron .header img{
+    border-radius: 20px;
+    cursor: crosshair;
+}
+
+
+
+.text4 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    position: absolute;
+    margin-left: 700px;
+    text-decoration: none;
+}
+
+
+
+.a:hover{
+    text-decoration: underline;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer1{
+    margin-top: 20px
+}
+
+.footer2{
+    margin-top: 20px
+}
+
+.footer3{
+    margin-top: 20px
+}
+
+.footer4{
+    margin-top: 20px
+}
+
+.footer5{
+    margin-top: 20px
+}
+
+.footer1 h3{
+    color: rgb(255, 255, 255)
+}
+.footer2 h3{
+    color: rgb(255, 255, 255)
+}
+.footer3 h3{
+    color: rgb(255, 255, 255)
+}
+.footer4 h3{
+    color: rgb(255, 255, 255)
+}
+
+.footer5 h3{
+    color: rgb(255, 255, 255)
+}
+
+
+.footer1 a{
+    color: rgb(255, 255, 255)
+}
+
+.footer2 a{
+    color: rgb(255, 255, 255)
+}
+
+.footer3 a{
+    color: rgb(255, 255, 255)
+}
+
+.footer4 a{
+    color: rgb(255, 255, 255)
+}
+
+.footer5 a{
+    color: rgb(255, 255, 255);
+}
+
